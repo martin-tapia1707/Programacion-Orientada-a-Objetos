@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{438D1F42-8C25-4E7D-ADCB-4FC0CA7CF8AD}|Punto 6\\Punto 6.csproj|C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\punto 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{438D1F42-8C25-4E7D-ADCB-4FC0CA7CF8AD}|Punto 6\\Punto 6.csproj|solutionrelative:punto 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F1D0-8951-45E5-96F0-ACE1EEDA1A31}|Punto 5\\Punto 5.csproj|C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\punto 5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F1D0-8951-45E5-96F0-ACE1EEDA1A31}|Punto 5\\Punto 5.csproj|solutionrelative:punto 5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B95FD0-4E33-4962-8559-EB4F0BF03CDF}|Punto 4\\Punto 4.csproj|C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\punto 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3B95FD0-4E33-4962-8559-EB4F0BF03CDF}|Punto 4\\Punto 4.csproj|solutionrelative:punto 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9270BDD5-4B8F-41C9-8FBA-332539C9EEF8}|Punto 3\\Punto 3.csproj|C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\punto 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9270BDD5-4B8F-41C9-8FBA-332539C9EEF8}|Punto 3\\Punto 3.csproj|solutionrelative:punto 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{373AC4F2-8E2B-46FE-BB1A-C47146105567}|Punto 2\\Punto 2.csproj|C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\punto 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{373AC4F2-8E2B-46FE-BB1A-C47146105567}|Punto 2\\Punto 2.csproj|solutionrelative:punto 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7080D19A-236B-4D13-BC76-33D328CBC0F5}|Punto 1\\Punto 1.csproj|c:\\users\\pc humilde\\desktop\\programacion-orientada-a-objetos\\[martintapia]-act1\\punto 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7080D19A-236B-4D13-BC76-33D328CBC0F5}|Punto 1\\Punto 1.csproj|solutionrelative:punto 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 6\\Program.cs",
+              "RelativeDocumentMoniker": "Punto 6\\Program.cs",
+              "ToolTip": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 6\\Program.cs",
+              "RelativeToolTip": "Punto 6\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:07:58.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 5\\Program.cs",
+              "RelativeDocumentMoniker": "Punto 5\\Program.cs",
+              "ToolTip": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 5\\Program.cs",
+              "RelativeToolTip": "Punto 5\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:07:25.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 4\\Program.cs",
+              "RelativeDocumentMoniker": "Punto 4\\Program.cs",
+              "ToolTip": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 4\\Program.cs",
+              "RelativeToolTip": "Punto 4\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:06:28.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 3\\Program.cs",
+              "RelativeDocumentMoniker": "Punto 3\\Program.cs",
+              "ToolTip": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 3\\Program.cs",
+              "RelativeToolTip": "Punto 3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:04:52.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 2\\Program.cs",
+              "RelativeDocumentMoniker": "Punto 2\\Program.cs",
+              "ToolTip": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 2\\Program.cs",
+              "RelativeToolTip": "Punto 2\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:02:57.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 1\\Program.cs",
+              "RelativeDocumentMoniker": "Punto 1\\Program.cs",
+              "ToolTip": "C:\\Users\\PC Humilde\\Desktop\\Programacion-Orientada-a-Objetos\\[MartinTapia]-Act1\\Punto 1\\Program.cs",
+              "RelativeToolTip": "Punto 1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:01:35.441Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
