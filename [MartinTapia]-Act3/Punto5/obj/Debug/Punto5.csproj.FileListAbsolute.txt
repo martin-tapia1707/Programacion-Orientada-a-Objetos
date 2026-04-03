@@ -1,0 +1,7 @@
+C:\Users\PC Humilde\source\repos\Punto1\Punto5\bin\Debug\Punto5.exe.config
+C:\Users\PC Humilde\source\repos\Punto1\Punto5\bin\Debug\Punto5.exe
+C:\Users\PC Humilde\source\repos\Punto1\Punto5\bin\Debug\Punto5.pdb
+C:\Users\PC Humilde\source\repos\Punto1\Punto5\obj\Debug\Punto5.csproj.AssemblyReference.cache
+C:\Users\PC Humilde\source\repos\Punto1\Punto5\obj\Debug\Punto5.csproj.CoreCompileInputs.cache
+C:\Users\PC Humilde\source\repos\Punto1\Punto5\obj\Debug\Punto5.exe
+C:\Users\PC Humilde\source\repos\Punto1\Punto5\obj\Debug\Punto5.pdb
