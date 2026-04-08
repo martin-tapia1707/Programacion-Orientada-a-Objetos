@@ -29,6 +29,7 @@ namespace Punto2
             num3 = int.Parse(valor);
 
             resultado1 = (num1 + num2);
+            Console.WriteLine(resultado1);
             resultado2 = (resultado1 * num3);
 
             if (num1 == num2 && num2 == num3)
@@ -36,7 +37,7 @@ namespace Punto2
                 Console.WriteLine(resultado2);
             }
 
-
+            Console.ReadKey();
         }
     }
 }

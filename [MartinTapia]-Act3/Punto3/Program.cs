@@ -34,6 +34,8 @@ namespace Punto3
                 Console.Write("Todos los numeros son menores a diez");
             }
 
+            Console.ReadKey();
+
         }
     }
 }

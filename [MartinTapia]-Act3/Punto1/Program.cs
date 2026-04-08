@@ -32,6 +32,8 @@ namespace Punto1
                 Console.WriteLine("Es navidad");
             }
 
+            Console.ReadKey();
+
         }
     }
 }

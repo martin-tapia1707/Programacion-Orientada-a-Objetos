@@ -52,6 +52,7 @@ namespace Punto5
                 Console.Write("El punto se encuentra en el 4to Cuadrante");
             }
 
+            Console.ReadKey();
 
 
         }

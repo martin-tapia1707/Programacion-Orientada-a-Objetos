@@ -35,6 +35,7 @@ namespace Punto4
                 Console.Write("Alguno de los numeros son menores a diez");
             }
 
+            Console.ReadKey();
 
         }
     }
