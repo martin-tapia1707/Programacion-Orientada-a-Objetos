@@ -28,12 +28,11 @@ namespace Punto2
             valor = Console.ReadLine();
             num3 = int.Parse(valor);
 
-            resultado1 = (num1 + num2);
-            Console.WriteLine(resultado1);
-            resultado2 = (resultado1 * num3);
-
             if (num1 == num2 && num2 == num3)
             {
+                resultado1 = (num1 + num2);
+                Console.WriteLine(resultado1);
+                resultado2 = (resultado1 * num3);
                 Console.WriteLine(resultado2);
             }
 
