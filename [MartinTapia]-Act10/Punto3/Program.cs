@@ -48,6 +48,7 @@ namespace Punto3
             Matrices m2 = new Matrices();
             m2.Cargar();
             m2.Imprimir();
+            Console.ReadKey();
         }
     }
 }
