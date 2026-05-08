@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumno\\Downloads\\asdasdasd\\[MartinTapia]-Act11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54A4AF2D-8A3E-46B3-B802-DBC89FDEBD3A}|Punto1\\Punto1.csproj|C:\\Users\\alumno\\Downloads\\asdasdasd\\[MartinTapia]-Act11\\punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54A4AF2D-8A3E-46B3-B802-DBC89FDEBD3A}|Punto1\\Punto1.csproj|solutionrelative:punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD1BD95-7ACA-4298-BF2B-1067F428EBEF}|Punto3\\Punto3.csproj|c:\\users\\alumno\\downloads\\asdasdasd\\[martintapia]-act11\\punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AD1BD95-7ACA-4298-BF2B-1067F428EBEF}|Punto3\\Punto3.csproj|solutionrelative:punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3D2B5F-0F84-4F23-82CA-65EC29CFCE5C}|Punto2\\Punto2.csproj|C:\\Users\\alumno\\Downloads\\asdasdasd\\[MartinTapia]-Act11\\punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3D2B5F-0F84-4F23-82CA-65EC29CFCE5C}|Punto2\\Punto2.csproj|solutionrelative:punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Downloads\\asdasdasd\\[MartinTapia]-Act11\\Punto3\\Program.cs",
+              "RelativeDocumentMoniker": "Punto3\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\Downloads\\asdasdasd\\[MartinTapia]-Act11\\Punto3\\Program.cs",
+              "RelativeToolTip": "Punto3\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwDEAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T11:18:15.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Downloads\\asdasdasd\\[MartinTapia]-Act11\\Punto2\\Program.cs",
+              "RelativeDocumentMoniker": "Punto2\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\Downloads\\asdasdasd\\[MartinTapia]-Act11\\Punto2\\Program.cs",
+              "RelativeToolTip": "Punto2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T11:18:04.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Downloads\\asdasdasd\\[MartinTapia]-Act11\\Punto1\\Program.cs",
+              "RelativeDocumentMoniker": "Punto1\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno\\Downloads\\asdasdasd\\[MartinTapia]-Act11\\Punto1\\Program.cs",
+              "RelativeToolTip": "Punto1\\Program.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwGQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T11:17:26.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
