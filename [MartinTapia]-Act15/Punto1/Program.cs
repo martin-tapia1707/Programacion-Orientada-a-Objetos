@@ -83,14 +83,73 @@ namespace Punto1
         
     public void GrillaOrganizada()
     {
-         // falta hacer guey
+            for(int i = 0; i < paciente.Length;i++)
+            {
+                Console.WriteLine("Paciente: " + paciente[i].DatoNombre());
+
+                int[,] matriz = paciente[i].DatoRitCard();
+
+                for (int f = 0; f < matriz.GetLength(0); f++)
+                {
+                    Console.WriteLine("Dia " + (f + 1) + ": ");
+                    for(int c = 0; c < matriz.GetLength(1); c++)
+                    {
+                        Console.Write(matriz[f, c] + " ");
+                    }
+                    Console.WriteLine();
+                }
+            }
     }
+
+    public void Promedio()
+        {
+            float promedio = 0;
+
+            for(int i = 0; i < paciente.Length; i++)
+            {
+                Console.WriteLine("Paciente: " + paciente[i].DatoNombre());
+                int[,] matriz = paciente[i].DatoRitCard();
+
+                for(int f = 0; f < matriz.GetLength(0); f++)
+                {
+                    for(int c = 0; c < matriz.GetLength(1); c++)
+                    {
+                        promedio = promedio + matriz[f, c];
+                    }
+                }
+
+                promedio = promedio / 12;
+
+                Console.WriteLine("Promedio de todo su ritmo cardiaco durante todo el monitoreo: " + promedio);
+            }
+        }
+
+    public void Taquicardia()
+        {
+            for(int i = 0; i < paciente.Length; i++)
+            {
+                int[,] matriz = paciente[i].DatoRitCard();
+
+                for(int f = 0; f < matriz.GetLength(0); f++)
+                {
+                    for(int c = 0; c < matriz.GetLength(1); c++)
+                    {
+                        if (matriz[f, c] > 120)
+                        {
+                            Console.WriteLine("Paciente: " + paciente[i].DatoNombre() + "presento un evento de taquicardia severa");
+                            Console.WriteLine(matriz[f, c]);
+                        }
+                    }
+                }
+            }
+        }
 
         static void Main(string[] args)
         {
         SalaMonitoreo sm2 = new SalaMonitoreo();
         sm2.GrillaOrganizada();
-
+        sm2.Promedio();
+        sm2.Taquicardia();
         Console.ReadKey();
         }
     }
