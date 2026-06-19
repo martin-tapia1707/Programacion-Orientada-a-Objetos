@@ -1,6 +1,4 @@
-﻿PUNTO 1
-
-using Punto1;
+﻿using Punto1;
 using System;
 using System.Collections.Generic;
 using System.Linq;
