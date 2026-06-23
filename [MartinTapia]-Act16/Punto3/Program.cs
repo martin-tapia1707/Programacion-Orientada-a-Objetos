@@ -20,108 +20,57 @@ namespace Punto3
         protected string marca;
         protected float velocidadMaxima;
 
-        public string Marca
+        public Vehiculo(string Marca, float VelMax)
         {
-            set
-            {
-                marca = value;
-            }
-            get
-            {
-                return marca;
-            }
+            marca = Marca;
+            velocidadMaxima = VelMax;
         }
 
-        public float VelocidadMax
+        public class Auto : Vehiculo
         {
-            set
+            int cantidadPuertas;
+
+            public Auto(string Marca, float VelMax, int CantPuertas) : base(Marca, VelMax)
             {
-                velocidadMaxima = value;
+                cantidadPuertas = CantPuertas;
             }
-            get
+
+            public void Imprimir()
             {
-                return velocidadMaxima;
+                Console.WriteLine("-- VEHICULO: AUTO --");
+                Console.WriteLine("Marca: " + marca);
+                Console.WriteLine("Velocidad Maxima: " + velocidadMaxima);
+                Console.WriteLine("Cantidad de puertas: " + cantidadPuertas);
             }
+
         }
-    }
 
-    public class Auto : Vehiculo
-    {
-        int cantidadPuertas;
-
-        public int CantidadPuertas
+        public class Moto : Vehiculo
         {
-            set
+            float cilindrada;
+
+            public Moto(string Marca, float VelMax, float Cilindrada) : base(Marca, VelMax)
             {
-                CantidadPuertas = value;
+                cilindrada = Cilindrada;
             }
-            get
+
+            public void Imprimir()
             {
-                return cantidadPuertas;
+                Console.WriteLine("-- VEHICULO: MOTO --");
+                Console.WriteLine("Marca: " + marca);
+                Console.WriteLine("Velocidad Maxima: " + velocidadMaxima);
+                Console.WriteLine("Cilindrada: " + cilindrada);
             }
-        }
 
-        public Auto()
-        {
-            Console.Write("Marca del auto: ");
-            Marca = Console.ReadLine();
-            Console.Write("Velocidad maxima del auto: ");
-            VelocidadMax = float.Parse(Console.ReadLine());
-            Console.Write("Cantidad de puertas del auto: ");
-            CantidadPuertas = int.Parse(Console.ReadLine());
-        }
-
-        public void Imprimir()
-        {
-            Console.WriteLine("-- VEHICULO: AUTO --");
-            Console.WriteLine("Marca: " + Marca);
-            Console.WriteLine("Velocidad Maxima: " + VelocidadMax);
-            Console.WriteLine("Cantidad de puertas: " + CantidadPuertas);
-        }
-
-    }
-
-    public class Moto : Vehiculo
-    {
-        float cilindrada;
-
-        public float Cilindrada
-        {
-            set
+            static void Main(string[] args)
             {
-                cilindrada = value;
+                Auto auto2 = new Auto("Toyota", 210, 4);
+                auto2.Imprimir();
+                Moto moto2 = new Moto("Honda", 180, 250);
+                moto2.Imprimir();
+                Console.ReadKey();
             }
-            get
-            {
-                return cilindrada;
-            }
-        }
-
-        public Moto()
-        {
-            Console.Write("Marca de la moto: ");
-            Marca = Console.ReadLine();
-            Console.Write("Velocidad maxima de la moto: ");
-            VelocidadMax = float.Parse(Console.ReadLine());
-            Console.Write("Cilindrada de la moto: ");
-            Cilindrada = float.Parse(Console.ReadLine());
-        }
-
-        public void Imprimir()
-        {
-            Console.WriteLine("-- VEHICULO: MOTO --");
-            Console.WriteLine("Marca: " + Marca);
-            Console.WriteLine("Velocidad Maxima: " + VelocidadMax);
-            Console.WriteLine("Cilindrada: " + Cilindrada);
-        }
-
-        static void Main(string[] args)
-        {
-            Auto auto2 = new Auto();
-            Moto moto2 = new Moto();
-            Console.ReadKey();
         }
     }
 }
-
 

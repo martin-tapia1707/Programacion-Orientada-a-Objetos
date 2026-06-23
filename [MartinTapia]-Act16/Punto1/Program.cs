@@ -20,14 +20,6 @@ namespace Punto1
         protected string nombre;
         protected int edad;
 
-        public Persona()
-        {
-            Console.Write("Inserte el nombre la persona: ");
-            nombre = Console.ReadLine();
-            Console.Write("Ingrese la edad de " + nombre + ": ");
-            edad = int.Parse(Console.ReadLine());
-        }
-
         public string Nombre
         {
             set
@@ -52,6 +44,13 @@ namespace Punto1
             }
         }
 
+        public Persona()
+        {
+            Console.Write("Inserte el nombre la persona: ");
+            nombre = Console.ReadLine();
+            Console.Write("Ingrese la edad de " + nombre + ": ");
+            edad = int.Parse(Console.ReadLine());
+        }
         public void Imprimir()
         {
             Console.WriteLine(Nombre + " tiene una edad de " + Edad);
@@ -62,16 +61,6 @@ namespace Punto1
     public class Empleado : Persona
     {
         protected int sueldo;
-
-        public Empleado()
-        {
-            Console.Write("Ingrese el nombre del empleado: ");
-            nombre = Console.ReadLine();
-            Console.Write("Ingrese la edad del empleado: ");
-            edad = int.Parse(Console.ReadLine());
-            Console.Write("Ingrese el sueldo: ");
-            sueldo = int.Parse(Console.ReadLine());
-        }
 
         public int Sueldo
         {
@@ -85,6 +74,12 @@ namespace Punto1
             }
         }
 
+        public Empleado()
+        {
+            Console.Write("Ingrese el sueldo: ");
+            sueldo = int.Parse(Console.ReadLine());
+        }
+        
         public void Imprimir()
         {
             Console.WriteLine(Nombre + " tiene un sueldo de " + Sueldo);
@@ -92,6 +87,8 @@ namespace Punto1
 
         static void Main(string[] args)
         {
+            Persona persona2 = new Persona();
+            persona2.Imprimir();
             Empleado empleado1 = new Empleado();
             empleado1.Imprimir();
             Console.ReadKey();
