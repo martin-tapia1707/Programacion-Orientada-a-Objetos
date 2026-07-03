@@ -44,7 +44,7 @@ namespace Punto4
 
             vuelos[0] = new Vuelo(1, DateTime.Today.AddHours(10), DateTime.Today.AddHours(18));
             vuelos[1] = new Vuelo(2, DateTime.Today.AddHours(5), DateTime.Today.AddHours(14)); // testeo vuelos para ver si andan mis metodos
-            vuelos[2] = new Vuelo(3, DateTime.Today.AddHours(9), DateTime.Today.AddHours(15));
+            vuelos[2] = new Vuelo(3, DateTime.Today.AddHours(9), DateTime.Today.AddHours(15));  // despues hacer mejor el constructor
             vuelos[3] = new Vuelo(4, DateTime.Today.AddHours(16), DateTime.Today.AddHours(22));
 
             // vuelo mas largo
