@@ -19,11 +19,10 @@ namespace Punto3
     internal class Entrenamiento
     {
         private string deportista;
-        private DateTime duracion;
+        private TimeSpan duracion;
 
         public void RegistrarDuracion(DateTime Horas, DateTime Minutos)
         {
-            duracion = (2, 20).TotalMinutes;
 
         }
 
@@ -35,8 +34,21 @@ namespace Punto3
         static void Main(string[] args)
         {
             Entrenamiento entrenamiento2 = new Entrenamiento();
-            entrenamiento2.RegistrarDuracion(DateTime.Today.AddHours(2), DateTime.Today.AddMinutes(20));
-            entrenamiento2.RegistrarDuracion(DateTime.Today.AddMinutes(40));
+
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("* === * === * === * === * === * === * === *");
+            Console.Write("Ingresa el nombre del deportista: ");
+            string deportista = Console.ReadLine();
+            Console.Write("Ingresa cuantas horas duro su entrenamiento: ");
+            DateTime hora = DateTime.Parse(Console.ReadLine());
+            Console.Write("y cuantos minutos duro su entrenamiento?: ");
+            DateTime minutos = DateTime.Parse(Console.ReadLine());
+
+
+            //entrenamiento2.RegistrarDuracion(DateTime.Today.AddHours(2), DateTime.Today.AddMinutes(20));
+            //entrenamiento2.RegistrarDuracion(DateTime.Today.AddMinutes(40));
+
+            
 
             Console.ReadKey();
         }
