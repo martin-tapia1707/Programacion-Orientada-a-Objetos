@@ -27,7 +27,7 @@ namespace Punto1
         public ClaseGimnasio()
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("=-=-=-=-=--=-=-=-=-===0");
+            Console.WriteLine("=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=");
             Console.Write("Ingresa el nombre de la clase: ");
             nombreClase = Console.ReadLine();
             Console.Write("Ingresa la hora de inicio: ");

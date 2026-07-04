@@ -32,7 +32,7 @@ namespace Punto5
         private int codigo;
         private DateTime horaInicio;
         private DateTime horaFin;
-        List<(int codigo, DateTime horaInicio, DateTime horaFin)> listaCorredores = new List<(int, DateTime, DateTime)>();
+        List<Corredor> listaCorredores = new List<Corredor>();
 
         public Carrera()
         {

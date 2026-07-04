@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,34 +22,63 @@ namespace Punto3
         private string deportista;
         private TimeSpan duracion;
 
-        public void RegistrarDuracion(DateTime Horas, DateTime Minutos)
+        public void RegistrarDuracion(int horas, int minutos)
         {
-
+            this.duracion = new TimeSpan(horas, minutos, 0);
+            Console.WriteLine(duracion + " en horas"); //test
         }
 
-        public void RegistrarDuracion(DateTime Minutos)
+        public void RegistrarDuracion(int minutos)
         {
+            this.duracion = TimeSpan.FromMinutes(minutos);
+            Console.WriteLine(duracion + " minutos"); // test
+        }
 
+        public Entrenamiento()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("* === * === * === * === * === * === * === *");
+            Console.Write("Ingresa el nombre del deportista: ");
+            deportista = Console.ReadLine();
+            Console.Write("Ingresa cuantos minutos duro su entrenamiento: ");
+            int minutos = int.Parse(Console.ReadLine());
+            RegistrarDuracion(minutos);
         }
 
         static void Main(string[] args)
         {
-            Entrenamiento entrenamiento2 = new Entrenamiento();
+            Entrenamiento[] train = new Entrenamiento[5];
 
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("* === * === * === * === * === * === * === *");
-            Console.Write("Ingresa el nombre del deportista: ");
-            string deportista = Console.ReadLine();
-            Console.Write("Ingresa cuantas horas duro su entrenamiento: ");
-            DateTime hora = DateTime.Parse(Console.ReadLine());
-            Console.Write("y cuantos minutos duro su entrenamiento?: ");
-            DateTime minutos = DateTime.Parse(Console.ReadLine());
+            for(int i = 0; i < train.Length; i++)
+            {
+                train[i] = new Entrenamiento();
+            }
 
+            // entrenamiento mas largo y mas corto
+            TimeSpan mayor = train[0].duracion;
+            int pos = 0;
+            TimeSpan menor = train[0].duracion;
+            for(int j = 0; j < train.Length; j++)
+            {
+                if(menor > train[j].duracion)
+                {
+                    menor = train[j].duracion;
+                    pos = j;
+                }
+            }
 
-            //entrenamiento2.RegistrarDuracion(DateTime.Today.AddHours(2), DateTime.Today.AddMinutes(20));
-            //entrenamiento2.RegistrarDuracion(DateTime.Today.AddMinutes(40));
+            Console.WriteLine("El entrenamiento con menor duracion es de " + menor + " minutos ");
 
-            
+            for(int k = 0; k < train.Length; k++)
+            {
+                if (train[k].duracion > mayor)
+                {
+                    mayor = train[k].duracion;
+                    pos = k;
+                }
+            }
+
+            Console.WriteLine("El entrenamiento con mayor duracion es de " + mayor + " minutos ");
 
             Console.ReadKey();
         }

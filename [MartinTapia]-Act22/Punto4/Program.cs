@@ -42,10 +42,19 @@ namespace Punto4
         {
             Vuelo[] vuelos = new Vuelo[4]; // cambiar a 4, testeo con 1
 
-            vuelos[0] = new Vuelo(1, DateTime.Today.AddHours(10), DateTime.Today.AddHours(18));
-            vuelos[1] = new Vuelo(2, DateTime.Today.AddHours(5), DateTime.Today.AddHours(14)); // testeo vuelos para ver si andan mis metodos
-            vuelos[2] = new Vuelo(3, DateTime.Today.AddHours(9), DateTime.Today.AddHours(15));  // despues hacer mejor el constructor
-            vuelos[3] = new Vuelo(4, DateTime.Today.AddHours(16), DateTime.Today.AddHours(22));
+            for(int i = 0; i < vuelos.Length; i++)
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("==========================================");
+                Console.Write("Ingresa el codigo del vuelo: ");
+                int vuelo = int.Parse(Console.ReadLine());
+                Console.Write("Ingresa la hora de salida: ");
+                DateTime horaSalida = DateTime.Parse(Console.ReadLine());
+                Console.Write("Ingresa la hora de llegada: ");
+                DateTime horaLlegada = DateTime.Parse(Console.ReadLine());
+
+                vuelos[i] = new Vuelo(vuelo, horaSalida, horaLlegada);
+            }
 
             // vuelo mas largo
 
@@ -56,6 +65,7 @@ namespace Punto4
                 if (vuelos[j].Duracion() > mayor)
                 {
                     mayor = vuelos[j].Duracion();
+                    pos = j;
                 }
             }
 
@@ -70,10 +80,11 @@ namespace Punto4
                 if (menor > vuelos[k].horaSalida)
                 {
                     menor = vuelos[k].horaSalida;
+                    pos = k;
                 }
             }
 
-            Console.WriteLine("El vuelo " + vuelos[pos].codigo + " es el vuelo que mas temprano sale, ya que dura " +  menor);
+            Console.WriteLine("El vuelo " + vuelos[pos].codigo + " es el vuelo que mas temprano sale, ya que sale a las " +  menor);
 
             Console.ReadKey();
 
