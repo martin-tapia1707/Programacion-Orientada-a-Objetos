@@ -109,7 +109,7 @@ namespace Punto5
                 corredor1.RegistrarTiempo(58);
                 carrera1.AgregarCorredor(corredor1);
 
-                Corredor corredor2 = new Corredor("Monika", 11);
+                Corredor corredor2 = new Corredor("Asgore", 11);
                 corredor2.RegistrarTiempo(28);
                 carrera1.AgregarCorredor(corredor2);
 
