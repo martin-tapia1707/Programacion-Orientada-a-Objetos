@@ -66,11 +66,11 @@ namespace Punto6
                 Console.Write("Titulo del libro: ");
                 tit = Console.ReadLine();
                 Console.Write("Anio de publicacion: ");
-                int anio = int.Parse(Console.ReadLine());
+                int anio = int.Parse(Console.ReadLine()); 
 
                 Libro lib = new Libro(tit, anio);
 
-                if (tit != "FIN")
+                if (tit != "FIN") 
                 {
                     libros.Add(lib);
                 }
@@ -80,15 +80,69 @@ namespace Punto6
 
         public void ListarCatalogo()
         {
+            int cantObras = 0;
             foreach(Libro libro in libros)
             {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("=============================");
                 Console.WriteLine("Titulo: " + libro.Titulo);
                 Console.WriteLine("Año Publicacion: " + libro.AnioPublicacion);
+                Console.ForegroundColor = ConsoleColor.White;
             }
             for(int i = 0; i < libros.Count; i++)
             {
-
+                cantObras++;
             }
+
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Cantidad total de Obras registradas: " + cantObras);
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        public void FiltrarPorAnio()
+        {
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.Write("Ingresa un año: ");
+            int anioSolicitado = int.Parse(Console.ReadLine());
+
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("========== LIBROS CON ANIOS MENORES A " + anioSolicitado);
+            foreach (Libro libro in libros)
+            {
+                if(libro.AnioPublicacion < anioSolicitado)
+                {
+                    Console.WriteLine(libro.Titulo + " /// " + libro.AnioPublicacion);
+                }
+            }
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        public void RemoverLibro()
+        {
+            Console.Write("Inserte el titulo de un libro para que sea eliminado: ");
+            string eliminar = Console.ReadLine();
+
+            for(int i = 0; i < libros.Count; i++)
+            {
+                if (libros[i].Titulo == eliminar)
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                    Console.WriteLine(libros[i].Titulo + " fue eliminado con exito del catalogo");
+                    libros.Remove(libros[i]);
+                }
+            }
+
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("==============================================");
+
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            foreach (Libro libro in libros)
+            {
+                Console.WriteLine("=============================");
+                Console.WriteLine("Titulo: " + libro.Titulo);
+                Console.WriteLine("Año Publicacion: " + libro.AnioPublicacion);
+            }
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
     }
@@ -96,6 +150,11 @@ namespace Punto6
     {
         static void Main(string[] args)
         {
+            BibliotecaCentral biblio2 = new BibliotecaCentral();
+            biblio2.CargarCatalogo();
+            biblio2.ListarCatalogo();
+            biblio2.FiltrarPorAnio();
+            biblio2.RemoverLibro();
         }
     }
 }
