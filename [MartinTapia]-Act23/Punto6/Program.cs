@@ -155,6 +155,7 @@ namespace Punto6
             biblio2.ListarCatalogo();
             biblio2.FiltrarPorAnio();
             biblio2.RemoverLibro();
+            Console.ReadKey();
         }
     }
 }
