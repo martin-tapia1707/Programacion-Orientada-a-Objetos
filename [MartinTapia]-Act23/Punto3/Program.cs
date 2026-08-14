@@ -122,6 +122,7 @@ namespace Punto3
             mon.MostrarReporteOrdenado();
             mon.MostrarReporteInvertido();
             mon.BuscarEspecie();
+            Console.ReadKey();
         }
     }
 }
