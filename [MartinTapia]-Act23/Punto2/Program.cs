@@ -121,6 +121,7 @@ namespace Punto2
             centro2.ListaFlota();
             centro2.RemoverDronesBajos();
             centro2.MostrarDronesRestantes();
+            Console.ReadKey();
         }
     }
 }
