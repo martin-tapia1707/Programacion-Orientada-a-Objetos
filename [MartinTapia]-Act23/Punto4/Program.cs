@@ -144,6 +144,7 @@ namespace Punto4
             paneldom.MostrarDispositivos();
             paneldom.CalcularConsumoTotal();
             paneldom.DesconectarDispositivo();
+            Console.ReadKey();
         }
     }
 }
