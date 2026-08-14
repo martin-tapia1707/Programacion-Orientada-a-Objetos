@@ -150,6 +150,7 @@ namespace _MartinTapia__Act23
             svImp.AgregarDocumento();
             svImp.ImprimirSiguiente();
             svImp.MostrarColaPendiente();
+            Console.ReadKey();
         }
     }
 }
