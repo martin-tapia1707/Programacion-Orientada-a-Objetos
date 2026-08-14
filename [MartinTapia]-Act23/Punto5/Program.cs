@@ -161,6 +161,7 @@ namespace Punto5
             gestion.BuscarVehiculo();
             gestion.EntregarVehiculo();
             gestion.CalcularRecaudacionPendiente();
+            Console.ReadKey();
         }
     }
 }
