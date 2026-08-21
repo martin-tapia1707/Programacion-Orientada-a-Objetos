@@ -1,0 +1,10 @@
+C:\Users\alumno.ET26\Documents\[MartinTapia]-Act25\[MartinTapia]-Act25\bin\Debug\[MartinTapia]-Act25.exe.config
+C:\Users\alumno.ET26\Documents\[MartinTapia]-Act25\[MartinTapia]-Act25\bin\Debug\[MartinTapia]-Act25.exe
+C:\Users\alumno.ET26\Documents\[MartinTapia]-Act25\[MartinTapia]-Act25\bin\Debug\[MartinTapia]-Act25.pdb
+C:\Users\alumno.ET26\Documents\[MartinTapia]-Act25\[MartinTapia]-Act25\obj\Debug\[MartinTapia]-Act25.csproj.AssemblyReference.cache
+C:\Users\alumno.ET26\Documents\[MartinTapia]-Act25\[MartinTapia]-Act25\obj\Debug\_MartinTapia__Act25.Form1.resources
+C:\Users\alumno.ET26\Documents\[MartinTapia]-Act25\[MartinTapia]-Act25\obj\Debug\_MartinTapia__Act25.Properties.Resources.resources
+C:\Users\alumno.ET26\Documents\[MartinTapia]-Act25\[MartinTapia]-Act25\obj\Debug\[MartinTapia]-Act25.csproj.GenerateResource.cache
+C:\Users\alumno.ET26\Documents\[MartinTapia]-Act25\[MartinTapia]-Act25\obj\Debug\[MartinTapia]-Act25.csproj.CoreCompileInputs.cache
+C:\Users\alumno.ET26\Documents\[MartinTapia]-Act25\[MartinTapia]-Act25\obj\Debug\[MartinTapia]-Act25.exe
+C:\Users\alumno.ET26\Documents\[MartinTapia]-Act25\[MartinTapia]-Act25\obj\Debug\[MartinTapia]-Act25.pdb
