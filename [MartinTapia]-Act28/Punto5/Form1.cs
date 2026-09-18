@@ -22,17 +22,17 @@ namespace Punto5
         {
             if (comboBox1.SelectedIndex == 0) 
             {
-                pictureBox1.ImageLocation = "C:\\Users\\alumno.ET26\\Downloads\\/arbol.jpg";
+                pictureBox1.ImageLocation = "https://s1.significados.com/foto/arbol-og.jpg";
             }
 
             if (comboBox1.SelectedIndex == 1) 
             {
-                pictureBox1.ImageLocation = "C:\\Users\\alumno.ET26\\Downloads\\/desierto.jpg";
+                pictureBox1.ImageLocation = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxJQVHkHJkf5sK8En-Gt1QuX97oO-jF9oYf5Y2WWIFbw&s=10";
             }
 
             if (comboBox1.SelectedIndex == 2) 
             {
-                pictureBox1.ImageLocation = "C:\\Users\\alumno.ET26\\Downloads\\/jungla.jpg";
+                pictureBox1.ImageLocation = "https://cdn0.ecologiaverde.com/es/posts/3/2/3/que_es_una_jungla_7323_2_600.jpg";
             }
         }
     }
